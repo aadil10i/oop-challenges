@@ -40,6 +40,8 @@ class Library:
         self.name = name
         self.books = []
 
+    # these methods access library book because it's initialized in their same constructor
+    # accesses the book from Book class, through parameters set by instances in main func
     def add_book(self, book):
         self.books.append(book)
 
