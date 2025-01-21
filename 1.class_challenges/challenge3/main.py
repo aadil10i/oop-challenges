@@ -1,3 +1,4 @@
+# main handles instances initialization and method calling
 def main():
     # Creating Book objects
     book1 = Book("The Cat in the Hat", "Dr. Seuss")
